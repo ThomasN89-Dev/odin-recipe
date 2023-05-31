@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "sourceSansPro";
+}
+
+.page-container {
+  padding: 0 5%;
+}
+
+section {
+  max-width: 600px;
+  margin: 30px 0;
+}
+
+section h3.title {
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 8px;
+}
+
+section .detail {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+/* intro section */
+.recipe-intro .recipe-title {
+  font-size: 42px;
+  line-height: 32px;
+  margin-bottom: 8px;
+}
+
+.recipe-intro .recipe-desc {
+  font-size: 16px;
+  margin-bottom: 8px;
+}
+
+.recipe-intro .recipe-img {
+  width: 500px;
+  border: 3px solid black;
+}
+
+/* recipe details section */
+.recipe-details {
+  background-color: #f5f6ea;
+}
+
+.recipe-details .details-box {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-row-gap: 2rem;
+  grid-column-gap: 2rem;
+  padding: 1rem;
+}
+
+.recipe-details .details-box .detail-box {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.recipe-details .details-box .detail-box .detail {
+  font-size: 18px;
+}
+
+.recipe-details .details-box .detail-box .detail.bold {
+  font-weight: bold;
+}
+
+/* ingretients section */
+.ingredients .ingredients-title {
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 8px;
+}
+
+@font-face {
+  font-family: "sourceSansPro";
+  src: url("../SourceSansPro-Regular.ttf") format("truetype");
+}
